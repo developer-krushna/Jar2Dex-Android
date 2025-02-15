@@ -1,0 +1,74 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/title"
+		android:focusable="false"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="15dp"
+		android:paddingLeft="8dp"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="4dp"
+		android:text="Jar2Dex"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#000000"
+		android:singleLine="true"
+		android:ellipsize="start"
+		android:textAppearance="?android:attr/dialogTitle" />
+	<TextView
+		android:id="@+id/message"
+		android:focusable="false"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="15dp"
+		android:paddingLeft="8dp"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="4dp"
+		android:text="Do you want to convert this jar file to a dex file\?"
+		android:textSize="16sp"
+		android:textColor="#000000" />
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="15dp"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="4dp"
+			android:text="MinSdk"
+			android:textSize="16sp"
+			android:textColor="#000000"
+			android:singleLine="true"
+			android:ellipsize="start" />
+		<Spinner
+			android:id="@+id/spinner1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="24dp"
+			android:paddingBottom="8dp"
+			android:spinnerMode="dropdown" />
+	</LinearLayout>
+</LinearLayout>
